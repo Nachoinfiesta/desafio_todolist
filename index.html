@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/styles.css" />
+    <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+    <script src="/script.js"></script>
+    <title>Tareas realizadas</title>
+  </head>
+  <body>
+    <h1>Todo list</h1>
+    <div class="container">
+      <div class="add-task">
+        <input type="text" id="taskInput" placeholder="Agregar nueva tarea" />
+        <button id="addTaskBtn">Nueva Tarea</button>
+      </div>
+
+      <div class="tasks">
+        <div class="summary">
+          <p>Total de tareas: <span id="totalTasks">0</span></p>
+          <p>Total de tareas realizadas: <span id="completedTasks">0</span></p>
+        </div>
+
+        <ul id="taskList"></ul>
+      </div>
+    </div>
+  </body>
+</html>

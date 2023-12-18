@@ -1,0 +1,49 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #7c7474;
+  }
+  
+  .container {
+    max-width: 600px;
+    margin: 20px auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .add-task {
+    margin-bottom: 20px;
+  }
+  
+  .tasks {
+    text-align: left;
+  }
+  
+  li {
+    list-style: none;
+    margin-bottom: 10px;
+    padding: 10px;
+    background-color: #e6e6e6;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .completed {
+    text-decoration: line-through;
+    color: #888;
+  }
+  
+  /* Agrega estos estilos para cambiar los colores */
+  .toggleBtn {
+    color: green;
+  }
+  
+  .deleteBtn {
+    color: red;
+  }
+  
